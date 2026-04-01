@@ -15,10 +15,15 @@ const Cartlist = ({select,setCartList}) => {
  console.log(filterProduct)
 setCartList(filterProduct)
     }
+
+    const procced=()=>{
+  toast("preocced to checkout")
+    }
     return (
+
         <div className='mx-52 my-16 p-9 flex flex-col gap-6 shadow-xl rounded-2xl'>
             <h1 className='font-bold text-3xl'>your cart</h1>
-    
+            {select.length===0 &&<h1>cart is empty</h1>}
         {select.map((product,ind) =>(
                    <div key={ind}
                 className='flex gap-3 cart bg-gray-200 rounded-2xl py-3 px-5 items-center'>
@@ -34,7 +39,7 @@ setCartList(filterProduct)
         ))
     }
       <p>total:{}</p>
-        <button className='btn rounded-3xl font-bold bg-linear-to-r from-violet-600 to-fuchsia-600 text-white' >Proceed to Checkout</button>
+        <button onClick={()=>procced()} className='btn rounded-3xl font-bold bg-linear-to-r from-violet-600 to-fuchsia-600 text-white' >Proceed to Checkout</button>
 
         </div>
     );

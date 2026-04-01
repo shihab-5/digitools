@@ -6,7 +6,7 @@ import Img from '../assets/banner.png';
 
 export const Banner = () => {
     return (
-        <div className='flex gap-60 mx-40 mt-20' >
+        <div className='flex gap-60 mx-40 mt-20 md:flex-col-reverse' >
             <div className='flex flex-col gap-7 justify-center'>
               <p className='border-2 border-hidden bg-blue-100 rounded-3xl px-3 w-fit text-[16px] text-indigo-700 flex gap-1 items-center'><GiUbisoftSun />
 New: AI-Powered Tools Available</p>

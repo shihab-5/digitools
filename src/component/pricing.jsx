@@ -11,8 +11,8 @@ return (
         <div className='grid grid-cols-3 gap-12 px-40 '>
            <div className="card w-96 bg-base-100 shadow-2xl">
   <div className="card-body">
-          <h2 className="text-3xl font-bold text-white"></h2>
-      <span className="text-xl text-white">$29/mo</span>
+          <h2 className="text-3xl font-bold ">starter</h2>
+      <span className="text-xl">$29/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -82,9 +82,9 @@ return (
 </div>    
            <div className="card w-96 bg-base-100 shadow-2xl">
   <div className="card-body">
-          <h2 className="text-3xl font-bold text-white">enterprice</h2>
+          <h2 className="text-3xl font-bold">enterprice</h2>
           <p>Best for professionals</p>
-      <span className="text-xl text-white">$29/mo</span>
+      <span className="text-xl">$29/mo</span>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>

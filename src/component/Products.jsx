@@ -13,7 +13,7 @@ export const Products = ({fetchProducts}) => {
     console.log(fetchData)
     return (
         <>
-         <div className='flex justify-center items-center mt-20 mb-10 flex-col gap-5 mx-[30rem]'>
+         <div className='flex justify-center items-center mt-20 mb-10 flex-col gap-5 mx-[30rem] sm:flex-wrap'>
             <h2 className='font-bold text-5xl'>Premium Digital Tools</h2>
             <p className='text-violet-900 text-center '>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
             <div className='border-2 flex border-gray-400 gap-0.5 rounded-3xl'>
