@@ -22,7 +22,7 @@ export const Products = ({fetchProducts}) => {
                 <button 
                 onClick={()=> setType('selected')}
                  className={`btn rounded-3xl font-bold ${type==='selected'?"bg-linear-to-r from-violet-600 to-fuchsia-600":""} text-gray-900`}
-                >Cart(2)</button>
+                >Cart({select.length})</button>
             </div>
         </div>
 
