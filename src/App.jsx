@@ -6,6 +6,7 @@ import Rating from './component/rating'
 import Products from './component/Products'
 import { ToastContainer } from 'react-toastify'
 import Steps from './component/Steps'
+import Pricing from './component/pricing'
 
  const fetchProducts=fetch("/data.json")
   .then(res => res.json())
@@ -21,6 +22,7 @@ function App() {
      <Products fetchProducts={fetchProducts}></Products>
     </Suspense>
     <Steps></Steps>
+    <Pricing></Pricing>
     <ToastContainer />
     <div>
     </div>

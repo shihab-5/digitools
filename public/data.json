@@ -6,7 +6,7 @@
     "price": 9.99,
     "period": "monthly",
     "tag": "Popular",
-    "img":"/src/assets/products/design-tool.png",
+    "img":"/assets/products/design-tool.png",
     "tagType": "popular",
     "features": [
       "100+ templates",
@@ -21,7 +21,7 @@
     "description": "Build a stunning developer portfolio with customizable themes.",
     "price": 19.99,
     "period": "one-time",
-    "img":"/src/assets/products/operation.png",
+    "img":"/assets/products/operation.png",
     "tag": "Best Seller",
     "tagType": "best",
     "features": [
@@ -38,7 +38,7 @@
     "price": 4.99,
     "period": "monthly",
     "tag": "New",
-    "img":"/src/assets/products/portfolio.png",
+    "img":"/assets/products/portfolio.png",
     "tagType": "new",
     "features": [
       "Drag & drop tasks",
@@ -54,7 +54,7 @@
     "price": 14.99,
     "period": "monthly",
     "tag": "Popular",
-    "img":"/src/assets/products/portfolio.png",
+    "img":"/assets/products/portfolio.png",
     "tagType": "popular",
     "features": [
       "AI text generation",
@@ -70,7 +70,7 @@
     "price": 7.99,
     "period": "yearly",
     "tag": "Best Seller",
-    "img":"/src/assets/products/social-media.png",
+    "img":"/assets/products/social-media.png",
     "tagType": "best",
     "features": [
       "Syntax highlighting",
@@ -86,7 +86,7 @@
     "price": 29.99,
     "period": "one-time",
     "tag": "Popular",
-    "img":"/src/assets/products/writing_2327400 1.png",
+    "img":"/assets/products/writing_2327400 1.png",
     "tagType": "popular",
     "features": [
       "500+ components",
@@ -102,7 +102,7 @@
     "price": 12.99,
     "period": "monthly",
     "tag": "New",
-    "img":"/src/assets/products/design-tool.png",
+    "img":"/assets/products/design-tool.png",
     "tagType": "new",
     "features": [
       "Real-time analytics",
@@ -118,7 +118,7 @@
     "price": 5.99,
     "period": "yearly",
     "tag": "Best Seller",
-    "img":"/src/assets/products/portfolio.png",
+    "img":"/assets/products/portfolio.png",
     "tagType": "best",
     "features": [
       "End-to-end encryption",
