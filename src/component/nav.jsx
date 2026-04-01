@@ -3,7 +3,7 @@ import React from 'react';
 export const Nav = () => {
     return (
         <div>
-            <div className="navbar flex justify-around bg-base-100 shadow-sm">
+            <div className="navbar flex justify-around bg-base-100 shadow-sm fixed top-0">
   <div className="">
     <a className="btn btn-ghost text-3xl font-bold bg-linear-to-r from-violet-600 to-fuchsia-600 text-transparent bg-clip-text">DigiTools</a>
   </div>

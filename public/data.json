@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates and easy export options.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Generator",
+    "description": "Build a stunning developer portfolio with customizable themes.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Custom domains",
+      "Responsive design",
+      "SEO optimized"
+    ],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 3,
+    "name": "TaskFlow Manager",
+    "description": "Organize tasks and boost productivity with smart task tracking.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop tasks",
+      "Team collaboration",
+      "Real-time sync"
+    ],
+    "icon": "FaTasks"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality content using AI for blogs, ads, and more.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI text generation",
+      "Multiple languages",
+      "SEO suggestions"
+    ],
+    "icon": "FaRobot"
+  },
+  {
+    "id": 5,
+    "name": "Code Snippet Manager",
+    "description": "Save and organize reusable code snippets for faster development.",
+    "price": 7.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "Syntax highlighting",
+      "Cloud sync",
+      "Search functionality"
+    ],
+    "icon": "FaCode"
+  },
+  {
+    "id": 6,
+    "name": "UI Kit Library",
+    "description": "Access ready-made UI components to speed up your design process.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "500+ components",
+      "Figma support",
+      "Dark mode ready"
+    ],
+    "icon": "FaLayerGroup"
+  },
+  {
+    "id": 7,
+    "name": "Analytics Dashboard",
+    "description": "Track user behavior and performance with interactive dashboards.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Real-time analytics",
+      "Custom reports",
+      "Data export"
+    ],
+    "icon": "FaChartLine"
+  },
+  {
+    "id": 8,
+    "name": "Password Manager",
+    "description": "Securely store and manage all your passwords in one place.",
+    "price": 5.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": [
+      "End-to-end encryption",
+      "Auto-fill login",
+      "Cross-device sync"
+    ],
+    "icon": "FaLock"
+  }
+]
