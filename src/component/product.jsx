@@ -8,13 +8,17 @@ export const Product = ({product,setCartList,select}) => {
       const [buy,setBuy]=useState(false)
 
     const click=()=>{
+
+        const exists =select.find(pdct => pdct.name==product.name);
+        if(exists){
  toast.success(`${product.name} is select to the cart`)
+ return;}
 setBuy(!buy);
 setCartList([...select,product]);
     }
     return (
         <div>
-          <div className="card rounded-2xl h-full w-96 bg-base-100 shadow-sm border-2">
+          <div className="card rounded-2xl h-full w-96 bg-base-100 shadow-2xl">
             <span className="badge badge-xs badge-warning mt-8 ml-72 px-3 py-3 text-[1rem]">{product.tagType}</span>
   <div className="card-body">
     <div className="flex flex-col gap-3">

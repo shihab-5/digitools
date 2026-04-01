@@ -29,7 +29,7 @@ export const Products = ({fetchProducts}) => {
 {
     type==="available" ?(
 
-    <div className='grid grid-cols-3  gap-8 mx-0 px-36 '>
+    <div className='grid grid-cols-3  gap-8 mx-0 px-36 py-20 '>
                 {
         fetchData.map(product => (
   <Product 

@@ -5,6 +5,7 @@ import Nav from './component/nav'
 import Rating from './component/rating'
 import Products from './component/Products'
 import { ToastContainer } from 'react-toastify'
+import Steps from './component/Steps'
 
  const fetchProducts=fetch("/data.json")
   .then(res => res.json())
@@ -19,6 +20,7 @@ function App() {
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
      <Products fetchProducts={fetchProducts}></Products>
     </Suspense>
+    <Steps></Steps>
     <ToastContainer />
     <div>
     </div>
