@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Feature from './Feature';
+import { toast } from 'react-toastify';
 
 
 export const Product = ({product,setCartList,select}) => {
@@ -7,6 +8,7 @@ export const Product = ({product,setCartList,select}) => {
       const [buy,setBuy]=useState(false)
 
     const click=()=>{
+ toast.success(`${product.name} is select to the cart`)
 setBuy(!buy);
 setCartList([...select,product]);
     }

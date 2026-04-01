@@ -42,7 +42,10 @@ export const Products = ({fetchProducts}) => {
     </div>):(
         <div>
            <Cartlist
-           select={select}></Cartlist>
+           select={select}
+          setCartList={setCartList}>
+
+           </Cartlist>
         </div>
     )}
 
